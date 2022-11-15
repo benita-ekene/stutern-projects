@@ -1,0 +1,42 @@
+h1{
+  color: brown;
+  background-color: azure;
+}
+
+#likes{
+  color: blueviolet;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: cursive;
+  
+}
+
+#likes-list{
+  font-size: 1.5rem;
+  color: black;
+  background-color: rgb(237, 252, 196);
+  width: 30%;
+  position: relative;
+  padding-left: 1.5em;
+  line-height: 1.65;
+}
+
+.dislikes{
+  list-style: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg width='14' height='14' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>");
+  color: red;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.dislikes-list{
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+  background-color: antiquewhite;
+  width: 30%;
+  position: relative;
+  padding-left: 1.5em;
+  line-height: 1.65;
+}
