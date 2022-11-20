@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+body {
+  background-image: linear-gradient(
+    to right top,
+    #5b1fe7,
+    #ff4739,
+    #62d6e6,
+    #ff6b9c,
+    #ffd865
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-section {
+  border: 1px solid rgb(134, 6, 146);
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(238, 234, 234);
+  padding
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline rgb(243, 214, 214);
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 110px;
+  position: -webkit-sticky;
+  
+}
+
+li {
+  padding: 10px;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+#my-name {
+  font-weight: 700;
+  font-size: 25px;
+  padding-right: 460px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.projects {
+  border: solid black 1px;
+  margin-bottom: 40px;
+  border-radius: 10%;
+  color: white;
+  background-color: black;
+}
+
+.image2 {
+  width: 500px;
+  height: 500px;
+  border-radius: 10%;
+  margin-left: 50px;
+  position: sticky;
+}
+
+.introduction {
+  display: flex;
+}
+
+h1, h2 {
+  text-align: center;
+  padding-bottom: 8px;
+}
+.introduction-section {
+  text-align: justify;
+  margin-bottom: 100px;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 100px;
+  padding-top: 80px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  word-spacing: 3px;
+  background-color: azure;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.skills-section {
+  display: flex;
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 20px;
+  padding: 100px;
+  padding-top: 130px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  word-spacing: 3px;
+  margin-top: 6;
+}
+
+.my-journey {
+
+  text-align: justify;
+
+}
+
+.skills {
+ 
+  padding-left: 200px;
+
+}
+
+td {
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  background-color: azure;
+  font-family: cursive;
+ font-size: 25px;
+ border-radius: 20px;
+}
